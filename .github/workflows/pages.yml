@@ -1,7 +1,7 @@
-name: Deploy EW Academy to GitHub Pages
+name: Deploy EW Academy preview to GitHub Pages
 on:
   push:
-    branches: [main]
+    branches: [main, feature/interactive-ew-academy]
   workflow_dispatch:
 permissions:
   contents: read
